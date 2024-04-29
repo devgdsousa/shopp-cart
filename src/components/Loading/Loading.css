@@ -1,0 +1,16 @@
+.load{
+  font-size: 2rem;
+  margin: 200px auto 0;
+  animation: loadding 1s linear infinite;
+  width: 100%;
+  color: rgb(197, 195, 192);
+}
+
+@keyframes loadding {
+  from{
+   transform: rotate(0deg) ;
+  }
+  to{
+    transform: rotate(360deg) ;
+  }
+}
